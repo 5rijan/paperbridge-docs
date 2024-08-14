@@ -1,0 +1,680 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="Convertor/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Paperbridge User Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Paperbridge User Manual" class="md-header__button md-logo" aria-label="Paperbridge User Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Paperbridge User Manual
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="grey"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="black"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Introduction
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Convertor/" class="md-tabs__link">
+        
+  
+    
+  
+  Conversion
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="Extension/" class="md-tabs__link">
+        
+  
+    
+  
+  Extension
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Paperbridge User Manual" class="md-nav__button md-logo" aria-label="Paperbridge User Manual" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Paperbridge User Manual
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-paperbridge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why Paperbridge?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-paperbridge-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Paperbridge Works
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Paperbridge Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-conversion-process-using-nougat-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Conversion Process Using Nougat AI
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Conversion Process Using Nougat AI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-why-nougat" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1 Why Nougat?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-how-nougat-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2 How Nougat Works
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-image-and-metadata-extraction-using-pdffigures-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Image and Metadata Extraction Using PDFFigures 2.0
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Image and Metadata Extraction Using PDFFigures 2.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-why-pdffigures-20" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Why PDFFigures 2.0?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-how-pdffigures-20-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 How PDFFigures 2.0 Works
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-editing-and-exporting-with-the-paperbridge-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Editing and Exporting with the Paperbridge Extension
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Editing and Exporting with the Paperbridge Extension">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-the-paperbridge-extension" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 The Paperbridge Extension
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-exporting-as-html-and-pdf" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Exporting as HTML and PDF
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-bringing-it-all-together" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Bringing It All Together
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about-this-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      About This Project
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Convertor/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Conversion
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Extension/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Extension
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="introduction">Introduction</h1>
+<p>Welcome to the Paperbridge User Manual. This document serves as a comprehensive guide to understanding how Paperbridge operates, from converting PDFs to MMD (Mathpix Markdown) using advanced AI models, to editing and exporting the content using a specially designed browser extension. Paperbridge is designed to enhance the accessibility, editability, and overall usability of scientific documents, especially those that contain complex mathematical expressions, figures, and tables.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>For project code and to download files visit <a href="https://github.com/5rijan/PaperBridge">github.com</a>.</p>
+</details>
+<h3 id="why-paperbridge">Why Paperbridge?</h3>
+<p>Scientific knowledge is predominantly stored in books and scientific journals, often in the form of PDFs. However, the PDF format leads to a significant loss of semantic information, particularly for mathematical expressions and scientific figures. Paperbridge addresses these challenges by converting PDFs into Mathpix Markdown (MMD), a markup language that preserves the document's structural and semantic integrity.</p>
+<h2 id="how-paperbridge-works">How Paperbridge Works</h2>
+<h3 id="1-conversion-process-using-nougat-ai">1. Conversion Process Using Nougat AI</h3>
+<h4 id="11-why-nougat">1.1 Why Nougat?</h4>
+<p>Paperbridge uses Nougat (Neural Optical Understanding for Academic Documents), a Visual Transformer model specifically designed for processing scientific documents into a markup language. Here's why Nougat was chosen over alternatives like Grobid:</p>
+<ul>
+<li>
+<p><strong>Superior Mathematical Extraction:</strong> Nougat excels in accurately converting mathematical expressions and scientific notations from PDFs into markup languages. This is crucial for academic papers where mathematical accuracy is paramount.</p>
+</li>
+<li>
+<p><strong>Enhanced Table Extraction:</strong> Unlike OCR-based models like Grobid, which may falter with complex scientific tables, Nougat provides a more reliable extraction method, preserving the structure and content of tables.</p>
+</li>
+<li>
+<p><strong>Semantic Preservation:</strong> Grobid and similar OCR-based solutions are faster because they primarily focus on text recognition. However, they often fail to capture the semantic relationships between text and figures, particularly in scientific documents. Nougat, on the other hand, bridges the gap between human-readable documents and machine-readable text, enhancing accessibility and usability.</p>
+</li>
+</ul>
+<details class="info" open="open">
+<summary>Info</summary>
+<p>For project code and more information realted to the Nougat project visit <a href="https://github.com/facebookresearch/nougat">github.com</a>.</p>
+</details>
+<h4 id="12-how-nougat-works">1.2 How Nougat Works</h4>
+<p>Nougat performs an Optical Character Recognition (OCR) task tailored for scientific documents. It uses a Visual Transformer model that understands the structure and content of scientific documents, including complex mathematical expressions. The model has been trained on a large dataset of scientific papers, ensuring high accuracy in converting PDFs to Mathpix Markdown.</p>
+<p><strong>Key Features of Nougat:</strong></p>
+<ul>
+<li><strong>Visual Transformer Model:</strong> This model is designed to interpret the visual layout of scientific documents, ensuring accurate conversion of text, figures, and tables.</li>
+<li><strong>Semantic Understanding:</strong> Nougat retains the semantic relationships within the document, particularly important for preserving the meaning of mathematical expressions and scientific notations.</li>
+<li><strong>Open Source and Accessible:</strong> The models and code for Nougat are open-source, accelerating future work on scientific text recognition and ensuring wide accessibility.</li>
+</ul>
+<h3 id="2-image-and-metadata-extraction-using-pdffigures-20">2. Image and Metadata Extraction Using PDFFigures 2.0</h3>
+<h4 id="21-why-pdffigures-20">2.1 Why PDFFigures 2.0?</h4>
+<p>In addition to text and mathematical expression extraction, Paperbridge also extracts images and their associated metadata using PaperPDFFigures 2.0. This tool was chosen because of its advanced capabilities in identifying and extracting figures and tables from scientific documents.</p>
+<details class="info" open="open">
+<summary>Info</summary>
+<p>For project code and more information realted to the PDFFigures 2.0 project visit <a href="https://github.com/allenai/pdffigures2">github.com</a>.</p>
+</details>
+<h4 id="22-how-pdffigures-20-works">2.2 How PDFFigures 2.0 Works</h4>
+<p>PDFFigures 2.0 analyzes the structure of individual pages in a PDF document. It does this by detecting captions, graphical elements, and chunks of body text. The algorithm then locates figures and tables by reasoning about the empty regions within the text. This method ensures that figures and tables are accurately identified and extracted, along with their captions and relevant metadata.</p>
+<p><strong>Key Features of PDFFigures 2.0:</strong></p>
+<ul>
+<li><strong>High Precision and Recall:</strong> The algorithm achieves an impressive 94% precision at 90% recall on a dataset of computer science papers, surpassing previous state-of-the-art methods.</li>
+<li><strong>Comprehensive Extraction:</strong> Not only are figures and tables extracted, but also their captions and metadata, ensuring that the context of these elements is preserved.</li>
+<li><strong>Ground Truth Dataset:</strong> The extraction method has been evaluated against a ground truth dataset, ensuring its reliability and accuracy.</li>
+</ul>
+<h3 id="3-editing-and-exporting-with-the-paperbridge-extension">3. Editing and Exporting with the Paperbridge Extension</h3>
+<h4 id="31-the-paperbridge-extension">3.1 The Paperbridge Extension</h4>
+<p>Once the PDF has been converted to MMD and the images and metadata have been extracted, users can edit the document using the Paperbridge extension. This browser extension is designed to make the editing process seamless and intuitive, allowing for a wide range of customizations and enhancements.</p>
+<p><strong>Key Features of the Paperbridge Extension:</strong></p>
+<ul>
+<li><strong>Editing MMD Text:</strong> Users can easily edit the text within the MMD document, making changes to the content as needed.</li>
+<li><strong>Inserting Images and Tables:</strong> The extension allows users to insert images and CSV tables into the MMD document, making it easy to enrich the content with additional data and visuals.</li>
+<li><strong>Export Options:</strong> The final document can be exported in both MMD and HTML formats. The HTML version comes with additional features like font size and family customization, dark mode, a table of contents, and embedded translation options for superior navigation and usability.</li>
+</ul>
+<h4 id="32-exporting-as-html-and-pdf">3.2 Exporting as HTML and PDF</h4>
+<ul>
+<li>
+<p><strong>HTML Export:</strong> The exported HTML file includes advanced features like adjustable font size and family, dark mode toggle, a dynamically generated table of contents, and integrated translation capabilities. This ensures that the document is not only accessible but also highly customizable to meet the user's preferences.</p>
+</li>
+<li>
+<p><strong>PDF Export:</strong> The extension also allows users to export the edited document as a PDF. This ensures that the final output can be shared in the widely-used PDF format while still retaining the enhancements made during the editing process.</p>
+</li>
+</ul>
+<h3 id="4-bringing-it-all-together">4. Bringing It All Together</h3>
+<p>Paperbridge is a comprehensive solution for converting, editing, and exporting scientific documents. By leveraging the strengths of Nougat AI for accurate text and mathematical extraction, and PDFFigures 2.0 for precise image and metadata extraction, Paperbridge ensures that the final output is both semantically rich and highly usable. The Paperbridge extension further enhances this by providing a user-friendly interface for editing and exporting the document in multiple formats, ensuring that scientific knowledge is accessible, editable, and shareable across different platforms.</p>
+<h2 id="about-this-project">About This Project</h2>
+<p>This project is part of a larger ongoing research aimed at enhancing the accessibility and usability of research papers. By converting PDFs into more interactive and editable formats like MMD (Mathpix Markdown) and HTML, we hope to make academic content more accessible to a broader audience, including those from non-English-speaking countries. If you're interested in contributing to this research as a participant or have suggestions for improving the project, we'd love to hear from you! Your insights and feedback are invaluable to us. Please reach out via email at <a href="mailto:srijanchaudhary2003@gmail.com">mail</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024 <a href="https://github.com/5rijan"  target="_blank" rel="noopener">Srijan Chaudhary</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
